@@ -59,7 +59,7 @@ const getParty = (request, response) => {
 };
 
 const getBling = (request, response) => {
-  loadFile(request, response, '../client/bling.mp4', 'audio/mpeg');
+  loadFile(request, response, '../client/bling.mp3', 'audio/mpeg');
 };
 
 const getBird = (request, response) => {
